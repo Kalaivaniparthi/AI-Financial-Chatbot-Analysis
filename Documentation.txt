@@ -1,0 +1,66 @@
+FINANCIAL CHATBOT PROTOTYPE - DOCUMENTATION
+============================================
+
+OVERVIEW
+--------
+This is a simple AI chatbot prototype that responds to predefined financial queries based on manually extracted data from SEC EDGAR 10-K filings of Microsoft, Tesla, and Apple (2023-2025).
+
+PREDEFINED QUERIES
+------------------
+1. "What companies are available?" – Lists all companies in the database.
+2. "Which company has the highest revenue in 2025?" – Returns the top performer.
+3. "How has [Company]'s revenue changed?" – Shows revenue growth rate from 2024 to 2025.
+4. "How has [Company]'s net income changed?" – Shows net income growth rate.
+5. "Show summary for [Company]" – Displays complete financial data for a company.
+6. "Show general summary" – High-level overview of all companies in 2025.
+7. "Show cash flow summary" – Displays operating cash flow for all companies.
+8. "help" – Shows available commands.
+9. "exit" or "quit" – Ends the chat session.
+
+HOW IT WORKS
+------------
+- The chatbot uses a Python function with if-else statements to match user input.
+- Financial data is hardcoded directly in the Python script (no external file needed).
+- Responses are dynamically generated based on the user's query.
+- Case-insensitive matching ensures user-friendly interaction.
+
+TECHNICAL DETAILS
+-----------------
+- Language: Python 3
+- Libraries: None (pure Python)
+- Data: Hardcoded dictionary of financial metrics
+- Interface: Command-line (terminal)
+
+LIMITATIONS
+-----------
+1. Only responds to predefined queries (not truly AI-powered).
+2. Cannot understand natural language variations (must match keywords).
+3. No memory of conversation history.
+4. Limited to 3 companies and 3 years of data.
+5. No internet connection required or used.
+
+FUTURE IMPROVEMENTS
+-------------------
+1. Integrate a natural language processing (NLP) model like GPT.
+2. Add real-time data fetching from financial APIs.
+3. Implement a proper UI with charts and graphs.
+4. Support more companies and metrics.
+5. Add data persistence (save/load from database).
+
+TEST RESULTS
+------------
+All predefined queries were tested and responded correctly:
+ "help" – Shows command list.
+ "What companies are available?" – Returns Apple, Microsoft, Tesla.
+ "Which company has the highest revenue in 2025?" – Returns Apple.
+ "How has Apple's revenue changed?" – Shows 6.42% growth.
+ "How has Tesla's net income changed?" – Shows 80.51% growth.
+ "Show summary for Microsoft" – Displays complete data.
+ "Show general summary" – Shows 2025 data for all companies.
+ "Show cash flow summary" – Shows operating cash flow.
+ "exit" – Ends the session gracefully.
+"unknown query" – Shows helpful error message.
+
+CONCLUSION
+----------
+This chatbot successfully demonstrates the core concept of a financial Q&A system. While limited to predefined queries, it provides a solid foundation for understanding how chatbots can leverage structured financial data to answer user questions.

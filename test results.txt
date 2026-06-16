@@ -1,0 +1,61 @@
+TEST RESULTS - Financial Chatbot
+================================
+
+You: help
+Bot: I can answer these questions:
+  1. "What companies are available?" or "companies"
+  2. "Which company has the highest revenue in 2025?" or "highest revenue"
+  3. "How has [Company]'s revenue changed?" (e.g., "How has Apple's revenue changed?")
+  4. "How has [Company]'s net income changed?" (e.g., "How has Tesla's net income changed?")
+  5. "Show summary for [Company]" (e.g., "Show summary for Microsoft")
+  6. "Show general summary" or "summary"
+  7. "Show cash flow summary" or "cash flow"
+  8. "help" to show this list
+  9. "exit" or "quit" to end the chat
+
+You: What companies are available?
+Bot: The companies in my database are: Apple, Microsoft, Tesla
+
+You: Which company has the highest revenue in 2025?
+Bot: The company with the highest revenue in 2025 is Apple with $416,161 million.
+
+You: How has Apple's revenue changed?
+Bot: Apple's revenue grew by 6.42% from 2024 to 2025.
+
+You: How has Tesla's net income changed?
+Bot: Tesla's net income increased by 80.51% from 2024 to 2025.
+
+You: Show summary for Microsoft
+Bot: 
+📊 Microsoft - Financial Summary (2023-2025):
+==================================================
+
+2023:
+  Revenue: $211,915 million
+  Net Income: $82,584 million
+  Assets: $411,976 million
+  Liabilities: $225,855 million
+  Operating Cash Flow: $87,582 million
+
+2024:
+  Revenue: $245,122 million
+  Net Income: $88,136 million
+  Assets: $512,163 million
+  Liabilities: $277,171 million
+  Operating Cash Flow: $116,029 million
+  Revenue Growth: 15.67%
+  Net Income Growth: 6.72%
+
+2025:
+  Revenue: $283,586 million
+  Net Income: $102,325 million
+  Assets: $543,352 million
+  Liabilities: $298,716 million
+  Operating Cash Flow: $124,385 million
+  Revenue Growth: 15.69%
+  Net Income Growth: 16.10%
+
+You: exit
+Bot: Goodbye! Have a great day!
+
+All tests passed successfully!
