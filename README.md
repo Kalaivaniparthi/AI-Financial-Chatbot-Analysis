@@ -72,16 +72,6 @@ This repository contains my submission for the **Forage GenAI Job Simulation**. 
 
 ---
 
-## 📊 Companies Analyzed
-| Company | Ticker |
-| :--- | :--- |
-| **Microsoft** | MSFT |
-| **Tesla** | TSLA |
-| **Apple** | AAPL |
-
-**Time Period:** Fiscal Years 2023, 2024, and 2025
-
----
 
 ## 📈 Metrics Extracted
 The following five key financial figures were collected for each company and year:
@@ -124,15 +114,6 @@ The chatbot responds to predefined financial queries, including:
 
 ---
 
-## 🚀 How to Run
-
-### Prerequisites
-- Python 3 installed on your system
-
-### Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YourUsername/GenAI-Financial-Chatbot-Simulation.git
 
 ## 🚀 How to Run
 
